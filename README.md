@@ -238,11 +238,12 @@ Starting from Addis Ababa, visiting all goal cities:
 
 ## Author
 
-AI Principles and Techniques Course Project  
+Name: Abel Adissu Tsegaye  
+ID: GSR/7389/18  
+Instructor: Dr. Natnael Argaw  
+Course: AI Principles and Techniques - Regular  
 Addis Ababa University, 2024/2025
 
 ## License
 
 MIT License
-
-# AI-Principle-and-Techniques-Final-Project
