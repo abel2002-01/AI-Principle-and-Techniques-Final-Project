@@ -1,0 +1,51 @@
+# Navigation Parameters for Traveling Ethiopia Robot
+# AI Principles Course Project - Question 5
+
+navigation_node:
+  ros__parameters:
+    # Default cities for navigation
+    initial_city: "Addis Ababa"
+    goal_city: "Moyale"
+    
+    # Search strategy: "bfs" or "dfs"
+    search_strategy: "bfs"
+    
+    # Robot motion parameters
+    linear_speed: 2.0        # m/s - maximum linear velocity
+    angular_speed: 1.5       # rad/s - maximum angular velocity
+    
+    # Navigation tolerances
+    goal_tolerance: 2.0      # meters - how close to waypoint before moving to next
+    heading_tolerance: 0.15  # radians - acceptable heading error
+    
+    # Obstacle avoidance
+    obstacle_distance: 1.5   # meters - minimum distance to obstacles
+    
+    # Control loop rate
+    control_rate: 10.0       # Hz
+
+
+# City Coordinates (for reference)
+# Coordinates are in Gazebo world frame (meters)
+# Origin is at Addis Ababa
+city_coordinates:
+  Addis Ababa: [0.0, 0.0]
+  Ambo: [-11.0, 3.0]
+  Jimma: [-25.0, -15.0]
+  Wolaita Sodo: [-20.0, -30.0]
+  Arba Minch: [-15.0, -45.0]
+  Konso: [-5.0, -55.0]
+  Moyale: [5.0, -70.0]
+  Adama: [10.0, -2.0]
+  Dire Dawa: [35.0, 5.0]
+  Harar: [40.0, 8.0]
+  Debre Berhan: [5.0, 13.0]
+  Dessie: [8.0, 30.0]
+  Woldia: [5.0, 40.0]
+  Lalibela: [-5.0, 45.0]
+  Mekelle: [15.0, 55.0]
+  Bahir Dar: [-30.0, 35.0]
+  Debre Markos: [-20.0, 15.0]
+  Gondar: [-35.0, 50.0]
+  Axum: [-20.0, 70.0]
+
