@@ -242,7 +242,7 @@ Name: Abel Adissu Tsegaye
 ID: GSR/7389/18  
 Instructor: Dr. Natnael Argaw  
 Course: AI Principles and Techniques - Regular  
-Addis Ababa University, 2024/2025
+Addis Ababa University, 2025/2026
 
 ## License
 
